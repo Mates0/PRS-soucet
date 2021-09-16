@@ -8,7 +8,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int sum = 0;
         int index = 1;
-        while(index <= 10) {
+        while(sc.hasNext()) {
             int input = sc.nextInt();
             if (input % 3 == 0) {
                 if (index % 2 == 0) {
